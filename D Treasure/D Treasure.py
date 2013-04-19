@@ -1,7 +1,7 @@
 import os
 import math
 
-def findPath(graph,start, nodes, path = []):
+def findPath(graph,keys,start, nodes, path = []):
     path = path + [start]
     nodes.remove (start)
     if len(nodes) ==0:
